@@ -1,6 +1,12 @@
 .image {
-    img {
+    @include toCenter();
+    a{
         @include toCenter();
-        margin: 12rem auto;
+        width: 60%;
+        @include toCenter();
+        img {
+            @include toCenter();
+            margin: 12rem auto;
+        }
     }
 }
