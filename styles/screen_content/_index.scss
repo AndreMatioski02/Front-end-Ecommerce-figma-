@@ -1,0 +1,6 @@
+.image {
+    img {
+        @include toCenter();
+        margin: 12rem auto;
+    }
+}

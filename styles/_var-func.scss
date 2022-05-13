@@ -1,0 +1,12 @@
+$main-color: #FFA451;
+$font: 'Lato', sans-serif;
+$title-color: #27214D;
+$text-color: #5D577E;
+
+@mixin toCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
