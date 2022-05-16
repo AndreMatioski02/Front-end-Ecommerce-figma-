@@ -2,11 +2,9 @@
     @include toCenter();
     a{
         @include toCenter();
-        width: 60%;
-        @include toCenter();
         img {
             @include toCenter();
-            margin: 12rem auto;
+            margin-top: 12rem ;
         }
     }
 }
