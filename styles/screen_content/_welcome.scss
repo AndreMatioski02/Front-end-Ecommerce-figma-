@@ -6,8 +6,8 @@
     width: 100%;
     background-color: $main-color;
     img {      
-        margin-top: 4rem; 
-        margin-bottom: 2rem; 
+        margin-top: 3rem; 
+        margin-bottom: 1.5rem; 
         @include toCenter();
         width: 20rem;
         height: 19rem;
@@ -42,7 +42,7 @@
 .continue-button {
     @include toCenter();
     display: flex;
-    margin-top: 3.5rem;
+    margin-top: 2.5rem;
     a{
         @include toCenter();
         display: flex;

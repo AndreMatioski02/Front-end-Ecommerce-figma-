@@ -8,8 +8,8 @@ main {
         width: 100%;
         background-color: $main-color;
         img {      
-            margin-top: 4rem;  
-            margin-bottom: 2rem;
+            margin-top: 3rem;  
+            margin-bottom: 1.5rem;
             @include toCenter();
             width: 20rem;
             height: 19rem;
@@ -34,14 +34,14 @@ main {
             height: 1.5rem;
             font-size: 1rem;
             font-family: $font;
-            margin-bottom: 1.75rem;
-            margin-left: 2rem;
-            margin-right: 2rem;
+            margin-bottom: 1.5rem;
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
             border: none;
             background-color: #F3F1F1;
             padding: 1rem;
             border-radius: 1rem;
-            color: #C2BDBD;
+            color: #000000;
         }
     }
 
