@@ -6,7 +6,8 @@ header {
     justify-content: space-between;
     .option{
         justify-content: left;
-        margin: 1rem;
+        margin: 0.5rem;
+        margin-left: 1rem;
         #option-icon {
             padding-top: 1rem;
             width: 2.5rem;
@@ -15,7 +16,8 @@ header {
     }
     .shop {
         justify-content: right;
-        margin: 1rem;
+        margin: 0.5rem;
+        margin-right: 1rem;
         #shop-icon {
             width: 3rem;
             height: 3rem;
@@ -73,13 +75,17 @@ header {
 
 .recommended-section {
     width: 100%;
-    margin: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
     .recommended-title {
         font-family: $font;
         color: $title-color;
         font-size: 1.25rem;
         text-align: left;
-        margin: 1.3rem;
+        margin-right: 1.3rem;
+        margin-left: 1.3rem;
+        margin-bottom: 0.5rem;
         font-weight: bold;
     }
 
@@ -96,7 +102,7 @@ header {
             margin: 1rem;
             border-radius: 1rem;
             border: 1px solid #FFFFFF;
-            box-shadow: 4px 4px 3.25rem lightgrey;
+            box-shadow: 4px 4px 3.25rem #EAEAEA;
             #honey-image {
                width: 6rem;
                padding: 0.5rem;
@@ -113,9 +119,10 @@ header {
                 align-items: center;
                 color: $main-color;
                 font-size: 1rem;
-                margin-top: 1.5rem;
+                margin-top: 1rem;
                 #money-icon {
-                    width: 2rem;
+                    width: 1.25rem;
+                    padding-right: 0.15rem;
                 }
 
                 #add-icon {
@@ -130,7 +137,7 @@ header {
             margin: 1rem;
             border-radius: 1rem;
             border: 1px solid #FFFFFF;
-            box-shadow: 4px 4px 3.25rem lightgrey;
+            box-shadow: 4px 4px 3.25rem #EAEAEA;
             #berry-image {
                width: 5.45rem;
                padding: 0.5rem;
@@ -147,15 +154,119 @@ header {
                 align-items: center;
                 color: $main-color;
                 font-size: 1rem;
-                margin-top: 1.5rem;
+                margin-top: 1rem;
                 #money-icon {
-                    width: 2rem;
+                    width: 1.25rem;
+                    padding-right: 0.15rem;
                 }
 
                 #add-icon {
                     width: 1.75rem;
                     padding-left: 2.25rem;
                 }
+            }
+        }
+    }
+}
+
+.salad-options {
+    display: flex;
+    p {
+        font-family: $font;
+        color: #BABABA;
+        font-weight: 600;
+        font-size: 0.9rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        &:hover {
+            font-size: 1rem;
+            font-weight: bold;
+            color: $title-color;
+            border-bottom: 2px solid $main-color;
+            
+        }
+    }
+}
+
+.footer-cards {
+    display: flex;
+    font-family: $font;
+    color: $title-color;
+    font-size: 0.85rem;
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 1REM;
+    #quinoa-fruit-salad {
+        background-color: #FFFAEB;
+        width: 50%;
+        margin: 1rem;
+        border-radius: 1rem;
+        border: 1px solid #FFFFFF;
+        box-shadow: 4px 4px 3.25rem #EAEAEA;
+        #quinoa-image {
+           width: 5rem;
+           padding: 0.5rem;
+           padding-left: 1rem;
+        }
+
+        #favorite-image {
+            padding-bottom: 3rem;
+            margin-top: 1rem;
+        }
+
+        .price {
+            display: flex;
+            margin: 0.5rem;
+            align-items: center;
+            color: $main-color;
+            font-size: 1rem;
+            margin-top: 1rem;
+            #money-icon {
+                width: 1.25rem;
+                padding-right: 0.15rem;
+            }
+
+            #add-icon {
+                width: 1.75rem;
+                padding-left: 2.25rem;
+            }
+        }
+    }
+
+    #tropical-fruit-salad {
+        background-color: #FEF0F0;
+        width: 50%;
+        margin: 1rem;
+        border-radius: 1rem;
+        border: 1px solid #FFFFFF;
+        box-shadow: 4px 4px 3.25rem #EAEAEA;
+        #tropical-image {
+           width: 4.45rem;
+           padding: 0.5rem;
+           padding-left: 1rem;
+        }
+
+        #favorite-image {
+            padding-bottom: 3rem;
+            margin-top: 1rem;
+        }
+
+        .price {
+            display: flex;
+            margin: 0.5rem;
+            align-items: center;
+            color: $main-color;
+            font-size: 1rem;
+            margin-top: 1rem;
+            #money-icon {
+                width: 1.25rem;
+                padding-right: 0.15rem;
+            }
+
+            #add-icon {
+                width: 1.75rem;
+                padding-left: 2.25rem;
             }
         }
     }

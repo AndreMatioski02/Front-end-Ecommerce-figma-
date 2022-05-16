@@ -375,7 +375,8 @@ header .option {
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
-  margin: 1rem;
+  margin: 0.5rem;
+  margin-left: 1rem;
 }
 
 header .option #option-icon {
@@ -388,7 +389,8 @@ header .shop {
   -webkit-box-pack: right;
       -ms-flex-pack: right;
           justify-content: right;
-  margin: 1rem;
+  margin: 0.5rem;
+  margin-right: 1rem;
 }
 
 header .shop #shop-icon {
@@ -453,7 +455,9 @@ header .shop #shop-icon {
 
 .recommended-section {
   width: 100%;
-  margin: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
 .recommended-section .recommended-title {
@@ -461,7 +465,9 @@ header .shop #shop-icon {
   color: #27214D;
   font-size: 1.25rem;
   text-align: left;
-  margin: 1.3rem;
+  margin-right: 1.3rem;
+  margin-left: 1.3rem;
+  margin-bottom: 0.5rem;
   font-weight: bold;
 }
 
@@ -484,8 +490,8 @@ header .shop #shop-icon {
   margin: 1rem;
   border-radius: 1rem;
   border: 1px solid #FFFFFF;
-  -webkit-box-shadow: 4px 4px 3.25rem lightgrey;
-          box-shadow: 4px 4px 3.25rem lightgrey;
+  -webkit-box-shadow: 4px 4px 3.25rem #EAEAEA;
+          box-shadow: 4px 4px 3.25rem #EAEAEA;
 }
 
 .recommended-section .recommended-card #honey-lime-combo #honey-image {
@@ -508,11 +514,12 @@ header .shop #shop-icon {
           align-items: center;
   color: #FFA451;
   font-size: 1rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .recommended-section .recommended-card #honey-lime-combo .price #money-icon {
-  width: 2rem;
+  width: 1.25rem;
+  padding-right: 0.15rem;
 }
 
 .recommended-section .recommended-card #honey-lime-combo .price #add-icon {
@@ -525,8 +532,8 @@ header .shop #shop-icon {
   margin: 1rem;
   border-radius: 1rem;
   border: 1px solid #FFFFFF;
-  -webkit-box-shadow: 4px 4px 3.25rem lightgrey;
-          box-shadow: 4px 4px 3.25rem lightgrey;
+  -webkit-box-shadow: 4px 4px 3.25rem #EAEAEA;
+          box-shadow: 4px 4px 3.25rem #EAEAEA;
 }
 
 .recommended-section .recommended-card #berry-mango-combo #berry-image {
@@ -549,14 +556,140 @@ header .shop #shop-icon {
           align-items: center;
   color: #FFA451;
   font-size: 1rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .recommended-section .recommended-card #berry-mango-combo .price #money-icon {
-  width: 2rem;
+  width: 1.25rem;
+  padding-right: 0.15rem;
 }
 
 .recommended-section .recommended-card #berry-mango-combo .price #add-icon {
+  width: 1.75rem;
+  padding-left: 2.25rem;
+}
+
+.salad-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.salad-options p {
+  font-family: "Lato", sans-serif;
+  color: #BABABA;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.salad-options p:hover {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #27214D;
+  border-bottom: 2px solid #FFA451;
+}
+
+.footer-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Lato", sans-serif;
+  color: #27214D;
+  font-size: 0.85rem;
+  text-align: center;
+  font-weight: bold;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1REM;
+}
+
+.footer-cards #quinoa-fruit-salad {
+  background-color: #FFFAEB;
+  width: 50%;
+  margin: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #FFFFFF;
+  -webkit-box-shadow: 4px 4px 3.25rem #EAEAEA;
+          box-shadow: 4px 4px 3.25rem #EAEAEA;
+}
+
+.footer-cards #quinoa-fruit-salad #quinoa-image {
+  width: 5rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+}
+
+.footer-cards #quinoa-fruit-salad #favorite-image {
+  padding-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+.footer-cards #quinoa-fruit-salad .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFA451;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.footer-cards #quinoa-fruit-salad .price #money-icon {
+  width: 1.25rem;
+  padding-right: 0.15rem;
+}
+
+.footer-cards #quinoa-fruit-salad .price #add-icon {
+  width: 1.75rem;
+  padding-left: 2.25rem;
+}
+
+.footer-cards #tropical-fruit-salad {
+  background-color: #FEF0F0;
+  width: 50%;
+  margin: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #FFFFFF;
+  -webkit-box-shadow: 4px 4px 3.25rem #EAEAEA;
+          box-shadow: 4px 4px 3.25rem #EAEAEA;
+}
+
+.footer-cards #tropical-fruit-salad #tropical-image {
+  width: 4.45rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+}
+
+.footer-cards #tropical-fruit-salad #favorite-image {
+  padding-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+.footer-cards #tropical-fruit-salad .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #FFA451;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.footer-cards #tropical-fruit-salad .price #money-icon {
+  width: 1.25rem;
+  padding-right: 0.15rem;
+}
+
+.footer-cards #tropical-fruit-salad .price #add-icon {
   width: 1.75rem;
   padding-left: 2.25rem;
 }
